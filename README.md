@@ -26,7 +26,7 @@ The system will handle datasets too large for memory, scaling up to distributed 
 ---
 
 ### Tools and Libraries:
-- **Java** for implementation.
-- **gRPC** or **Netty** for communication between machines.
-- Use any standard external sorting algorithm (e.g., merge sort) adapted for disk-based and distributed sorting.
+- **Scala** for implementation.
+- **gRPC** for communication between machines.
+- Use an standard external sorting algorithm which has an n*log(n) complexity due to the important size of the partitions (e.g., merge sort) adapted for disk-based and distributed sorting.
 
