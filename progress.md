@@ -34,5 +34,3 @@ We are relying on chatgpt for the design of the project and most of its detail. 
 ## Questions
 1. What is the partitioning algorithm? hashcode, random or ranges
 2. Will we have a weekly guidance about how to design and code the project or is the project completely unguided?
-
-# WEEK2:
