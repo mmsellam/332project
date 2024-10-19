@@ -9,6 +9,7 @@ To view the contents of a generated binary file (like `partition1`) on Windows, 
 ```powershell
 $bytes = [System.IO.File]::ReadAllBytes(".\partition1")
 $bytes[0..99] | Format-Hex
+```
 
 ## Project Overview
 
