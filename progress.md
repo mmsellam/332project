@@ -10,6 +10,12 @@ We plan to meet phisically at least twice a week after the class and maybe on th
 
 About how to effectively communicate between members, in the first meeting of each week we will discuss about the planification of the next steps and constantly review in a high level of abstraction where we are in the project.
 
+## About the Project Management:
+
+This document will be our progress tracker. We discused about the possibility of using an specialized tool for the Project Management (finish this...)
+
+escribir esta parte explicando que la estructura semanal se va a repetir y vamos a seguir desarrollando acá abajo a medida que avancemos.
+
 ## Milestones:
 
 ### Milestone #1 (Weeks 1-2):
