@@ -2,7 +2,7 @@
 
 This project involves implementing a distributed sorting system for large key-value datasets that do not fit in memory.
 
-# Distributed sorting:
+# Distributed sorting
 
 It is a sorting problem when the data uses more storage than a single machine can handle. So we use multiple worker machines that sort each a chunk from the original data. Each machine either gets the chunks randomly, via a hashing function or respecting some predefined ranges. We also use a master machine that connects to every worker machine individually to distribute the the partition data, manage the merging process.
 
