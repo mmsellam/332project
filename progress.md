@@ -1,87 +1,41 @@
-# WEEK1:
+# Week 1:
 
-## Distributed sorting:
+## Progress
 
-It is a sorting problem when the data uses more storage than a single machine can handle. So we use multiple worker machines that sort each a chunk from the original data. Each machine either gets the chunks randomly, via a hashing function or respecting some predefined ranges. We also use a master machine that connects to every worker machine individually to distribute the the partition data, manage the merging process.
-
-## Communication:
-
-We plan to meet phisically at least twice a week after the class and maybe on the weekends
-
-About how to effectively communicate between members, in the first meeting of each week we will discuss about the planification of the next steps and constantly review in a high level of abstraction where we are in the project.
-
-## About the Project Management:
-
-This document will be our progress tracker. We discused about the possibility of using an specialized tool for the Project Management (finish this...)
-
-escribir esta parte explicando que la estructura semanal se va a repetir y vamos a seguir desarrollando acá abajo a medida que avancemos.
-
-## Milestones:
-
-### Milestone #1 (Weeks 1-2):
-
-#### Weeks 1 and 2:
-
-Generate input data using gensort.
-Set up the master node.
-
-### Milestone #2 (Weeks 3-4):
-
-#### Week 3:
-
-Ensure that workers can connect to the master.
-Learn and implement a network library (e.g., gRPC with Protobuf).
-Implement sampling: workers send sample data to the master.
-
-#### Week 4:
-
-Master distributes partition data to workers.
-Perform initial sorting/partitioning on worker nodes.
-
-### Milestone #3 (Weeks 5-6):
-
-Implement sorting and merging across workers.
-Ensure that the master and workers run smoothly together.
-Prepare for the progress slides and presentation (due Week 6).
-
-### Milestone #4 (Weeks 7-8):
-
-Optimize parallelism by exploiting multiple cores.
-Finalize distributed sorting, partitioning, and merging processes.
-Final testing and submission by the project deadline (Dec 8).
-
-## Chatgpt usage:
-
-We are relying on chatgpt for the design of the project and most of its detail. Since a single chat has a limited memory, we will prepare a prompt that we use and update every singleweek to initiate the chatgpt conversation to the project everytime, andwe also may give it the project's file for a better understanding
+We discussed the initial structure of the project management and asked initial questions
 
 ## Questions
 
-1. What is the partitioning algorithm? hashcode, random or ranges
+1. What is the partitioning algorithm? hashcode, random or ranges...?
 2. Will we have a weekly guidance about how to design and code the project or is the project completely unguided?
 
-# WEEK2:
+# Week 2:
 
 ## Answers to feedback
 
-### your feedback questions
+### TA's (Kyunwoo Kim) feedback questions
 
-We had these 2 notes as a feedback: For week 1, these items could have been additionally discussed:
-
-1. Git workflow strategies (branching model, commit conventions, PR guidelines)
-2. Project management approaches (documentation standards, issue tracking system)
+> Your milestones are thoughtfully structured with clear weekly progression. Beginning with master-worker connection establishment demonstrates a realistic, bottom-up approach, and your strategic consideration of parallelism as a key architectural component, while deliberately postponing optimization, shows a solid awareness of the early optimization pitfall discussed in class. I appreciate the detailed articulation of your thought process in these milestones.
+>
+> We note your transparency about ChatGPT usage. Your systematic approach with consistent prompting and context sharing makes sense. Consider documenting which AI suggestions proved effective - it could provide valuable insights for your project review.
+>
+> Now, here are the answers to your questions.
+>
+> 1. The partitioning algorithm is a part of your design choices. You can use any you see fit.
+> 2. We’ll give you weekly feedback based on your progress reports and project repository.
+>
+> Please keep in mind that the more detailed your progress report is, the more specific feedback we can provide. For week 1, these items could have been additionally discussed:
+>
+> - Git workflow strategies (branching model, commit conventions, PR guidelines)
+> - Project management approaches (documentation standards, issue tracking system)
 
 ### Answers to the questions:
 
-#### 1. Git workflow
+#### Git workflow and Project management
 
-- **Branching:** There’s only a main branch for deployment, and feature branches for each task. Merging happens once a feature is complete.
-- **Commit Conventions:** clear, consistent format using prefixes like feat: for new features, fix: for bug fixes, refactor: for code restructuring, and docs: for documentation updates.
-- **PR guidelines:** structure where every feature branch is merged back to main via PRs, keeping PRs small, ideally focusing on a single feature.
-
-#### 2. Project management
-
-- **Documentation standards:** For readme, we will not include how to contribute or coding guidelines since it is only an academic project and not intended for other people to improve it. We will keep the same structure adding dependencies and technical details when evolving in the project. For comments, we will try to apply the advices of the book "clean code" we studied in class, we will try to limit the comments only to the following purposes: informative comments (for ex a return of an abstract method), explanation of intent and clarification, warning of consequences, TODOs
-- **Issue tracking system:** Use labels like bug, feature, documentation, enhancement, etc., to categorize issues. Set milestones for each week or major project phase and update them each week if necessary. Write clear issue descriptions with current behavior and expected results.
+- **Documentation standards:** For readme, we will not include how to contribute or coding guidelines since it is only an academic project and not intended for other people to improve it. We will keep the same structure adding dependencies and technical details when evolving in the project. For comments, we will try to apply the advices of the book "clean code" we studied in class, we will try to limit the comments only to the following purposes: informative comments (for example a return of an abstract method), explanation of intent and clarification, warning of consequences, TODOs.
+- **Issue tracking system:** To answer this question we wrote a separated document called 'ProjectManagementGeneralGuidelines.md' where we define the alignments we will attach to work properly. We will also use labels like bug, feature, documentation, etc., to categorize issues. Set milestones for each week or major project phase and update them each week if necessary. Write clear issue descriptions with current behavior and expected results.
+- Our **Git workflow and standards** is also described in 'ProjectManagementGeneralGuidelines.md'
 
 ## Weekly progress
 
