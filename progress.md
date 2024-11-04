@@ -31,7 +31,7 @@ We discussed the initial structure of the project management and asked initial q
 
 ### Answers to the questions:
 
-#### Git workflow and Project management
+#### Git workflow and Project management:
 
 - **Documentation standards:** For readme, we will not include how to contribute or coding guidelines since it is only an academic project and not intended for other people to improve it. We will keep the same structure adding dependencies and technical details when evolving in the project. For comments, we will try to apply the advices of the book "clean code" we studied in class, we will try to limit the comments only to the following purposes: informative comments (for example a return of an abstract method), explanation of intent and clarification, warning of consequences, TODOs.
 - **Issue tracking system:** To answer this question we wrote a separated document called 'ProjectManagementGeneralGuidelines.md' where we define the alignments we will attach to work properly. We will also use labels like bug, feature, documentation, etc., to categorize issues. Set milestones for each week or major project phase and update them each week if necessary. Write clear issue descriptions with current behavior and expected results.
@@ -43,17 +43,17 @@ Since we had the midterms this week, we could not progress much in this project.
 
 ### Milestones
 
-We updated the milestones of week 1 due to our lack of progress inthis week
+We updated the milestones of week 1 due to our lack of progress in this week
 
 ### Architecture
 
-We created and refactoring the architechture of the project.
+We created and refactoring the architecture of the project.
 We created two packages scala and proto inside the main to differentiate between both coding styles.
 
-### master node and introduction to the communication
+### Master node and Introduction to the Communication
 
 All with the help and explanation of chatgpt, we coded the gRPC sorting service and messages(communication) and the partitioning of the data in MaterNode.scala.
-However, we still are dependent completely on the workof chatGPT since all of this is new to us.
+However, we still are dependent completely on the work of chatGPT since all of this is new to us.
 We are planning to learn more about gRPC and protobuf in the next week as stated in the milestones.
 
 ## Questions for feedback
@@ -61,3 +61,14 @@ We are planning to learn more about gRPC and protobuf in the next week as stated
 1. Do you think that our plan for week 3 is correct (relevant) ?
 2. What do you advise us to do for week 3 and 4 as possible updates to the milestones
 3. We are too dependent on chatGPT at this level, is that normal as a start of the project and being fresh to this type of software design? If not we are happy to get your advice for a better management.
+
+# Week 3:
+
+The main progress this week was about finishing the project management guidelines and doing separately research about grpc and protobuf. We did not reflect this investigation in our code yet. We were also working on requesting access to our project VM server.
+
+Nextweek we need to consolidate our progress for this week and work on:
+
+- Master distributes partition data to workers.
+- Perform initial sorting/partitioning on worker nodes.
+
+# Week 4:

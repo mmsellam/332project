@@ -48,12 +48,7 @@ And then use `git checkout` to keep working on your branch.
 
 Before updating the docs (for example, and most of times, for weekly progress updates) follow the next steps:
 
-> `git checkout master`
-> `git pull`
-> _update with your progress_
-> `git add .`
-> `git commit -m "docs: updated weekly progress (f.e.)"`
-> `git push`
+> `git checkout master` > `git pull` > _update with your progress_ > `git add .` > `git commit -m "docs: updated weekly progress (f.e.)"` > `git push` > `git checkout 'featureX"`
 
 This is important to be done this way so we dont lose any documentation update since those are the files we can change at the same time. Our main goal with this protocols and policies is to avoid losing time with merging conflicts.
 
