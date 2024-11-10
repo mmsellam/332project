@@ -85,14 +85,17 @@ Learn and implement a network library (e.g., gRPC with Protobuf).
 Implement sampling: workers send sample data to the master.
 
 ### Week 4:
+Design
+
+### Week 5:
 
 Master distributes partition data to workers.
-Perform initial sorting/partitioning on worker nodes.
+Ensure that the master and workers run smoothly together.
 
-## Milestone #3 (Weeks 5-6):
+## Milestone #3 (Week 6):
 
 Implement sorting and merging across workers.
-Ensure that the master and workers run smoothly together.
+Perform initial sorting/partitioning on worker nodes.
 Prepare for the progress slides and presentation (due Week 6).
 
 ## Milestone #4 (Weeks 7-8):

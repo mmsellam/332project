@@ -72,3 +72,5 @@ Nextweek we need to consolidate our progress for this week and work on:
 - Perform initial sorting/partitioning on worker nodes.
 
 # Week 4:
+The main progress about this week was the design as advised by the TA and the professor. 
+Please find the file Design.md in the project
