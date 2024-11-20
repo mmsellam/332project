@@ -54,11 +54,9 @@ graph LR
     M[Master node] -- 1_ei --> B{W2}
     M[Master node] -- 1_ei --> C{Wi}
     M[Master node] -- 1_ei --> D{Wn}
-    A -- 2_C1i --> M
-    B -- 2_C2i --> M
-    C -- 2_Cii --> M
-    D -- 2_Cni --> M
-    M -- "3_C1i to Cni" --> C
+    A -- 2_C1i --> C
+    B -- 2_C2i --> C
+    D -- 2_Cni --> C
 ```
 
 ## Step 4: Merging
@@ -74,5 +72,3 @@ For i= 1 to n:
     Wi sends SDi to master
     Mater stores SDi in the needed destination
     If Wi can store them to the destination directly, it would be helpful
-
-

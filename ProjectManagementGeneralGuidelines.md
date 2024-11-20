@@ -89,7 +89,6 @@ Design
 
 ### Week 5:
 
-Master distributes partition data to workers.
 Ensure that the master and workers run smoothly together.
 
 ## Milestone #3 (Week 6):
