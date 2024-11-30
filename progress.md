@@ -74,3 +74,9 @@ Nextweek we need to consolidate our progress for this week and work on:
 # Week 4:
 The main progress about this week was the design as advised by the TA and the professor. 
 Please find the file Design.md in the project
+
+
+Mokhtar's personal notes:
+create as many threads as you need for communication
+Take advantage of concurrent programming.
+Then just execute this unit
