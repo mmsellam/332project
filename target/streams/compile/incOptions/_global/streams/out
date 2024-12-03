@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\poseidon\OneDrive - epfl.ch\Desktop\test\332project\target\scala-3.5.0\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\poseidon\OneDrive - epfl.ch\Desktop\test\332project\target\scala-3.5.0\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequestOrBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WorkerNode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest$Builder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MasterNode.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MasterNode$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest$Builder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse$Builder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponseOrBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequestOrBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse$Builder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponseOrBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequestOrBuilder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WorkerNode.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest$Builder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MasterNode.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MasterNode$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloRequest$Builder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponse$Builder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequest$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortResponseOrBuilder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$SortRequestOrBuilder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponse$Builder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SortServiceOuterClass$HelloResponseOrBuilder.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\poseidon\OneDrive - epfl.ch\Desktop\test\332project\target\scala-3.5.0\classes.bak[0m

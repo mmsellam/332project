@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package distributed_sort;
+
+
+// Service definition for master to communicate with worker nodes
+service SortService {
+  rpc SortChunk (SortRequest) returns (SortResponse);
+  rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+
+// Message defining the request from master to worker for sorting a chunk
+message SortRequest {
+  string chunkData = 1; // Data chunk for sorting
+}
+
+// Message defining the response from worker to master after sorting
+message SortResponse {
+  bool success = 1; // Indicates if sorting was successful
+  string sortedChunkData = 2; // The sorted data chunk
+}
+
+message HelloRequest {
+  string message = 1;
+}
+
+message HelloResponse {
+  string reply = 1;
+}
